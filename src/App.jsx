@@ -1,6 +1,6 @@
 import AddTodo from "./Components/AddTodo"
 import Todo from "./Components/Todo"
-
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   
@@ -11,6 +11,7 @@ function App() {
     <h1 className="text-transparent bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-3xl font-extrabold text-center mb-8 mt-2">Redux Todo</h1>
     <AddTodo/>
     <Todo/>
+    <Analytics/>
     </div>
     
     </>
